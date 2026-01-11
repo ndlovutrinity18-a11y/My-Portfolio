@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8a1fdcdfa1.js" crossorigin="anonymous"></script>">
+    <script src="https://kit.fontawesome.com/8a1fdcdfa1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>My-Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="styles.css">
 <body>
   <div class="container-fluid p-0">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">TRINITY</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +37,15 @@
     <p>
       I am a Junior Frontend Developer passionate about creating Responsive and accessible websites.
       I focus on writing clean, efficient code and bringing designs to life with attention to detail
-      while continously learning and improving my skills through real-world Projects.
+      while continuously learning and improving my skills through real-world Projects.
     </p>
     <a href="#" class="btn btn-light">Projects</a>
     <a href="#" class="btn btn-info">Contact me</a>
   </div>
   </div>
+  <div class="skills">
   <h2>Tech stacks</h2>
+  <div class="container">
   <ul>
     <li>HTML5</li>
     <li>CSS3</li>
@@ -52,6 +54,8 @@
     <li>VS Code</li>
     <li>Git & GitHub</li>
   </ul>
+  </div>
+  </div>
   <h3>Projects</h3>
   <div class="container-fluid">
     <div class="row">
@@ -61,34 +65,36 @@
   <div class="card-body">
     <h5 class="card-title">AI Recipe App Generator</h5>
     <p class="card-text">An AI-powered web application generates recipe based on user input.<br>
-      This Project helped me understand how to work with APIs,handle user input, and manage asynchronous requests using Axios.<br>
+      This Project helped me understand how to work with APIs, handle user input, and manage asynchronous requests using Axios.<br>
       <br>
       <h2>
-        <small>Skils used:</small>
+        <small>Skills used:</small>
         </h2>
-        HTML, CSS,JavaScript, API intergration, Axios 
+        HTML, CSS, JavaScript, API integration, Axios 
     </p>
     <p class="text-muted small fst-italic">
 Planned Improvements: Refactor UI using Bootstrap for better responsiveness and aesthetics.
     </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="https://github.com/ndlovutrinity18-a11y/AI-Recipe-Generator" class="btn btn-primary"> <i class="fa-brands fa-square-github"> </i></a>
+    <a href="https://airecipeappbytee.netlify.app/" class="btn btn-primary"><i class="fa-solid fa-link"></i></a>
   </div>
 </div>
       </div>
       <div class="col-sm-6">
-        <div class="card">
+        <div class="card"> 
   <img src="images/weather.png" class="card-img-top" alt="weather app">
   <div class="card-body">
     <h5 class="card-title">Weather App</h5>
     <p class="card-text"> A weather application that fetches and displays real time weather data for different cities<br>
-    Through this project, I practiced consuming APIs,handing API responses, and updating the UI dynamicall with JavaScript.<br>
+    Through this project, I practiced consuming APIs, handling API responses, and updating the UI dynamically with JavaScript.<br>
     <br>
     <h2>
-      <small>Skils used:</small>
+      <small>Skills used:</small>
       </h2>
-      HTML,CSS,JavaScript, API intergration,Axios
+      HTML, CSS, JavaScript, API integration, Axios
     </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="https://github.com/ndlovutrinity18-a11y/Weather-App" class="btn btn-primary"><i class="fa-brands fa-square-github"></i></a>
+    <a href="https://teeweather-app.netlify.app/" class="btn btn-primary"><i class="fa-solid fa-link"></i></a>
   </div>
 </div>
       </div>
@@ -99,15 +105,16 @@ Planned Improvements: Refactor UI using Bootstrap for better responsiveness and 
   <img src="images/worldclock.png" class="card-img-top" alt="world clock app">
   <div class="card-body">
     <h5 class="card-title">World Clock App</h5>
-    <p class="card-text">A world clock application that displays the current for multiple time zones.<br>
-    This project strenghthened my understanding of Javascript data and time functions and working with external APIs.<br>
+    <p class="card-text">A world clock application that displays the current time for multiple time zones.<br>
+    This project strengthened my understanding of Javascript date and time functions and working with external APIs.<br>
     <br>
     <h4>
-      <small>Skils used:</small>
+      <small>Skills used:</small>
     </h4>
-      HTML,CSS,JavaScript, Timezone API intergration,Axios
+      HTML, CSS, JavaScript, Timezone API integration, Axios
     </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="https://github.com/ndlovutrinity18-a11y/World-clock" class="btn btn-primary"><i class="fa-brands fa-square-github"></i></a>
+    <a href="https://world-clock-igsj.onrender.com/index.html" class="btn btn-primary"><i class="fa-solid fa-link"></i></a>
   </div>
   </div>
   </div>
@@ -117,11 +124,14 @@ Planned Improvements: Refactor UI using Bootstrap for better responsiveness and 
   <div class="card-body">
     <h5 class="card-title">Portfolio Website</h5>
     <p class="card-text">A responsive portfolio website showcasing my projects and skills.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="https://github.com/ndlovutrinity18-a11y/My-Portfolio" class="btn btn-primary"><i class="fa-brands fa-square-github"></i></a>
+    <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i></a>
   </div>
       </div>
       </div>
   </div>
+  </div>
+  <div class="contact-details">
   <h2>Contact Me</h2>
   <form>
     <div class="mb-3">
@@ -138,6 +148,9 @@ Planned Improvements: Refactor UI using Bootstrap for better responsiveness and 
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
+  <h3>Alternatively send an email to:</h3><br>
+   <a href="mailto:ndlovutrinity18@gmail.com">ndlovutrinity18@gmail.com</a>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
