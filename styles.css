@@ -1,14 +1,15 @@
 :root {
     --font-inter: 'Inter', sans-serif;
+    --background: #bbe9db;
 }
 body {
     font-family: var(--font-inter);
-    background-color: #f8f9fa;
+    background-color: var(--background);
 }
 .container-fluid.p-0 {
     padding: 0 !important;
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: var(--background);
 }
 p{
     font-size: 18px;
@@ -51,4 +52,22 @@ h2{
     margin: 40px 20px;
     text-align: center;
 
+}
+.about-container{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background);
+
+
+}
+.about-image{
+    margin-top: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
