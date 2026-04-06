@@ -1,6 +1,6 @@
 :root {
     --font-inter: 'Inter', sans-serif;
-    --background: #bbe9db;
+    --background: #e9e1bb;
 }
 body {
     font-family: var(--font-inter);
@@ -106,7 +106,7 @@ li{
 .about-skills, .about-education{
     flex: 1;
     min-width: 300px;
-    background-color:#c7ffeee5; ;
+    background-color:#f6f3ecc8; ;
     padding: 20px;
     border-radius: 10px;
 }
