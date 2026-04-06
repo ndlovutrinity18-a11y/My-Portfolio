@@ -88,3 +88,25 @@ em{
 a{
     text-decoration: none;
 }
+
+
+li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.more-details{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+  
+}
+.about-skills, .about-education{
+    flex: 1;
+    min-width: 300px;
+    background-color:#c7ffeee5; ;
+    padding: 20px;
+    border-radius: 10px;
+}
